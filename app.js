@@ -232,6 +232,11 @@ app.use('/api/arrivals', (req, res) => {
         city: "United Christian College (Kowloon East)",
         remarks: "ON TIME"
       },
+      {
+        airline: "UCC",
+        city: "Queen's College Old Boys' Association Secondary School",
+        remarks: "ON TIME"
+      },
     ]
   };
 
