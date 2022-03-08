@@ -129,8 +129,10 @@ app.use('/api/arrivals', (req, res) => {
     data: [
       {
         airline: "SWA",
-        city: "BISHOP HALL JUBILEE SCHOOL",
-        remarks: "ON TIME"
+        flight: 1, // Team qty
+        city: "BISHOP HALL JUBILEE SCHOOL", // School Name
+        gate: "KL3", // School Code
+        remarks: "ON TIME" // Status
       },
       {
         airline: "AAL",
