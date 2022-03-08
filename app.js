@@ -125,28 +125,135 @@ function getTime() {
 
 app.use('/api/arrivals', (req, res) => {
   let r = {
-    data: []
+
+    data: [
+      {
+        airline: "SWA",
+        city: "BISHOP HALL JUBILEE SCHOOL",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "AAL",
+        city: "Ccc Tam Lee Lai Fun Memorial Secondary School",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "BAW",
+        city: "Cognitio College (Kowloon)",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "DAL",
+        city: "HKUGA College",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "UAE",
+        city: "LOK SIN TONG KU CHIU MAN SECONDARY SCHOOL",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "KLM",
+        city: "Lok Sin Tong Wong Chung Ming Secondary school",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "DLH",
+        city: "Lok Sin Tong Yu Kan Hing Secondary School",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "ASA",
+        city: "PHC Wing Kwong College",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "UAL",
+        city: "Sai Kung Sung Tsun Catholic School (Secondary Section)",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "FDX",
+        city: "St Paul's College",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "PXM",
+        city: "Tai Kwong Hilary College",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "SKW",
+        city: "TWGHs Kap Yan Directors' College",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "JBU",
+        city: "West Island School",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "ACA",
+        city: "WONG SHIU CHI SECONDARY SCHOOL",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "QXE",
+        city: "YING WA COLLEGE",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "NKS",
+        city: "Concordia Lutheran School",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "VIR",
+        city: "Hong Kong Teachers' Association Lee Heng Kwei Secondary School",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "LXJ",
+        city: "True Light Middle School of Hong Kong",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "QFA",
+        city: "Man Kwan Pak Kau College",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "SSC",
+        city: "St Stephen's College",
+        remarks: "ON TIME"
+      },
+      {
+        airline: "UCC",
+        city: "United Christian College (Kowloon East)",
+        remarks: "ON TIME"
+      },
+    ]
   };
 
-  for (let i = 0; i < 18; i++) {
-    // Create the data for a row.
-    let data = {
-      airline: getAirline(),
-      flight: getFlight(),
-      city: getCity(),
-      gate: getGate(),
-      scheduled: getTime()
-    };
+  // for (let i = 0; i < 18; i++) {
+  //   // Create the data for a row.
+  //   let data = {
+  //     airline: getAirline(),
+  //     flight: getFlight(),
+  //     city: getCity(),
+  //     gate: getGate(),
+  //     scheduled: getTime()
+  //   };
 
-    // Let's add an occasional delayed flight.
-    data.status = getRandomInt(10) > 7 ? 'B' : 'A';
-    if (data.status === 'B') {
-      data.remarks = `Delayed ${getRandomInt(50)}M`;
-    }
+  //   // Let's add an occasional delayed flight.
+  //   data.status = getRandomInt(10) > 7 ? 'B' : 'A';
+  //   if (data.status === 'B') {
+  //     data.remarks = `Delayed ${getRandomInt(50)}M`;
+  //   }
 
-    // Add the row the the response.
-    r.data.push(data);
-  }
+  //   // Add the row the the response.
+  //   r.data.push(data);
+  // }
 
   res.json(r);
 });
@@ -157,6 +264,6 @@ app.use('/', express.static('public'));
 
 // ========================================================================
 // WEB SERVER
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 app.listen(port);
 console.log('split flap started on port ' + port);

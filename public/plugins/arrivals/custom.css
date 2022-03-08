@@ -78,3 +78,9 @@
 .splitflap .image span.QFA {
   background-position: 0px -800px;
 } /* qantas */
+.splitflap .image span.SSC {
+  background-position: 0px -840px;
+}
+.splitflap .image span.UCC {
+  background-position: 0px -880px;
+} 

@@ -6,6 +6,9 @@
   "repository": "https://github.com/baspete/Split-Flap.git",
   "author": "Pete Butler <pbutler@basdesign.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "express": "^4.17.1"
   }

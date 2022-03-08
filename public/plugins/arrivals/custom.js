@@ -19,7 +19,9 @@ sf.display.ImageDrum = function() {
     'NKS',
     'VIR',
     'LXJ',
-    'QFA'
+    'QFA',
+    'SSC',
+    'UCC'
   ];
 };
 

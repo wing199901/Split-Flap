@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0cdfcb3d-c9b6-4e9b-970d-56ba87312bdd/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/splitflap",
+    "appService.deploySubpath": "."
+}

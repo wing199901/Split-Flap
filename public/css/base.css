@@ -7,8 +7,20 @@ a {
   color: #fff;
   text-decoration: none;
 }
+@font-face {
+  font-family: aAtmospheric;
+  src: url(../font/a_atmospheric/aAtmospheric.ttf);
+}
+h1 {
+  font-family: aAtmospheric;
+}
+h1 img {
+  float: right;
+  margin-right: 5%;
+  width: 250px;
+}
 .splitflap {
-  width: 1400px;
+  width: 2400px;
   overflow: none;
   white-space: nowrap;
   margin: 20px 10px;
