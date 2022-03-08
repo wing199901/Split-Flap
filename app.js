@@ -59,7 +59,7 @@ function getAirline() {
     'NKS',
     'VIR',
     'LXJ',
-    'QFA'
+    'QFA',
   ];
   return airlines[getRandomInt(airlines.length - 1)];
 }
@@ -129,116 +129,396 @@ app.use('/api/arrivals', (req, res) => {
     data: [
       {
         airline: "SWA",
-        flight: 1, // Team qty
-        city: "BISHOP HALL JUBILEE SCHOOL", // School Name
-        gate: "KL3", // School Code
-        remarks: "ON TIME" // Status
+        flight: 5,
+        city: "Team ORIX",
+        gate: "",
+        status: "A",
+        remarks: "BOARDING"
       },
       {
         airline: "AAL",
-        city: "Ccc Tam Lee Lai Fun Memorial Secondary School",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "LOK SIN TONG KU CHIU MAN SECONDARY SCHOOL",
+        gate: "NT1",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "BAW",
-        city: "Cognitio College (Kowloon)",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Sai Kung Sung Tsun Catholic School (Secondary Section)",
+        gate: "NT8",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "DAL",
-        city: "HKUGA College",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Pui Ying Secondary School",
+        gate: "HK1",
+        status: "C",
+        remarks: "LAST CALL"
       },
       {
         airline: "UAE",
-        city: "LOK SIN TONG KU CHIU MAN SECONDARY SCHOOL",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "St Paul's College",
+        gate: "HK1",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "KLM",
-        city: "Lok Sin Tong Wong Chung Ming Secondary school",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Cognitio College (Kowloon)",
+        gate: "KL3",
+        status: "A",
+        remarks: "BOARDING"
       },
       {
         airline: "DLH",
-        city: "Lok Sin Tong Yu Kan Hing Secondary School",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Munsang College",
+        gate: "KL3",
+        status: "C",
+        remarks: "LAST CALL"
       },
       {
         airline: "ASA",
-        city: "PHC Wing Kwong College",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Yuen Long Merchants Association Secondary School",
+        gate: "NT4",
+        status: "C",
+        remarks: "LAST CALL"
       },
       {
         airline: "UAL",
-        city: "Sai Kung Sung Tsun Catholic School (Secondary Section)",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Ccc Tam Lee Lai Fun Memorial Secondary School",
+        gate: "NT3",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "FDX",
-        city: "St Paul's College",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "True Light Middle School of Hong Kong",
+        gate: "HK2",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "PXM",
-        city: "Tai Kwong Hilary College",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Caritas St. Joseph Secondary School",
+        gate: "NT1",
+        status: "C",
+        remarks: "LAST CALL"
       },
       {
         airline: "SKW",
-        city: "TWGHs Kap Yan Directors' College",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "SKH Lam Woo Memorial Secondary School",
+        gate: "NT1",
+        status: "C",
+        remarks: "LAST CALL"
       },
       {
         airline: "JBU",
-        city: "West Island School",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "TWGHs Kap Yan Directors' College",
+        gate: "NT5",
+        status: "A",
+        remarks: "BOARDING"
       },
       {
         airline: "ACA",
-        city: "WONG SHIU CHI SECONDARY SCHOOL",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "BISHOP HALL JUBILEE SCHOOL",
+        gate: "KL3",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "QXE",
-        city: "YING WA COLLEGE",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "HKUGA College",
+        gate: "HK4",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "NKS",
-        city: "Concordia Lutheran School",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Caritas Ma On Shan Secondary School",
+        gate: "NT7",
+        status: "C",
+        remarks: "LAST CALL"
       },
       {
         airline: "VIR",
-        city: "Hong Kong Teachers' Association Lee Heng Kwei Secondary School",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Lok Sin Tong Yu Kan Hing Secondary School",
+        gate: "KL4",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "LXJ",
-        city: "True Light Middle School of Hong Kong",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Steward Pooi Kei College",
+        gate: "NT7",
+        status: "C",
+        remarks: "LAST CALL"
       },
       {
         airline: "QFA",
-        city: "Man Kwan Pak Kau College",
-        remarks: "ON TIME"
+        flight: 1,
+        city: "Cheung Sha Wan Catholic Secondary School",
+        gate: "KL2",
+        status: "C",
+        remarks: "LAST CALL"
       },
       {
-        airline: "SSC",
-        city: "St Stephen's College",
-        remarks: "ON TIME"
+        airline: "AAA",
+        flight: 1,
+        city: "Lok Sin Tong Wong Chung Ming Secondary school",
+        gate: "KL4",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
-        airline: "UCC",
+        airline: "AAB",
+        flight: 1,
+        city: "Notre Dame College",
+        gate: "KL3",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAC",
+        flight: 1,
+        city: "West Island School",
+        gate: "HK1",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "AAD",
+        flight: 2,
+        city: "WONG SHIU CHI SECONDARY SCHOOL",
+        gate: "NT6",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "AAE",
+        flight: 1,
+        city: "Tuen Mun Catholic Secondary School",
+        gate: "NT3",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAF",
+        flight: 1,
+        city: "Queen's College",
+        gate: "HK1",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAG",
+        flight: 1,
+        city: "Tai Kwong Hilary College",
+        gate: "NT6",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "AAH",
+        flight: 1,
+        city: "Tsung Tsin College",
+        gate: "NT3",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAI",
+        flight: 1,
+        city: "PHC Wing Kwong College",
+        gate: "KL4",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAJ",
+        flight: 1,
+        city: "YING WA COLLEGE",
+        gate: "KL2",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "AAK",
+        flight: 1,
+        city: "Lee Kau Yan Memorial School",
+        gate: "KL4",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "ZZZ",
+        flight: 1,
+        city: "Concordia Lutheran School",
+        gate: "KL2",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "AAM",
+        flight: 1,
+        city: "Hong Kong Teachers' Association Lee Heng Kwei Secondary School",
+        gate: "NT6",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "AAN",
+        flight: 1,
+        city: "NT Heung Yee Kuk Tai Po District Secondary School",
+        gate: "NT6",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAO",
+        flight: 1,
+        city: "St. Paul’s School (Lam Tin)",
+        gate: "KL5",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAP",
+        flight: 1,
+        city: "Carmel Alison Lam Foundation Secondary School",
+        gate: "NT1",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAQ",
+        flight: 1,
+        city: "San Wui Commercial Society Secondary School",
+        gate: "NT3",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAR",
+        flight: 1,
+        city: "TWGHs Chen Zao Men College",
+        gate: "NT1",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAS",
+        flight: 1,
+        city: "Yan Oi Tong Tin Ka Ping Secondary School",
+        gate: "NT3",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAT",
+        flight: 1,
         city: "United Christian College (Kowloon East)",
-        remarks: "ON TIME"
+        gate: "KL5",
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
-        airline: "UCC",
-        city: "Queen's College Old Boys' Association Secondary School",
-        remarks: "ON TIME"
+        airline: "AAU",
+        flight: 1,
+        city: "Queen's College Old Boys' Association Secoondary School",
+        gate: "HK1",
+        status: "B",
+        remarks: "GATE OPEN"
       },
+      {
+        airline: "AAV",
+        flight: 1,
+        city: "Christian and Missionary Alliance Sun Kei Secondary School",
+        gate: "NT8",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAW",
+        flight: 1,
+        city: "Man Kwan QualiEd College",
+        gate: "NT8",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAX",
+        flight: 1,
+        city: "Po Leung Kuk Lo Kit Sing (1983) College",
+        gate: "NT1",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "AAY",
+        flight: 1,
+        city: "Man Kwan Pak Kau College",
+        gate: "NT4",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "AAZ",
+        flight: 1,
+        city: "St Stephen's College",
+        gate: "HK4",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "ABA",
+        flight: 1,
+        city: "Ng Wah Catholic Secondary School",
+        gate: "KL4",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "ABB",
+        flight: 1,
+        city: "China Holiness Church Living Spirit College",
+        gate: "NT6",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "ABC",
+        flight: 1,
+        city: "The Methodist Church Hong Kong Wesley College",
+        gate: "HK3",
+        status: "C",
+        remarks: "LAST CALL"
+      },
+      {
+        airline: "ABD",
+        flight: 1,
+        city: "PLK Vicwood KT Chong Sixth Form College",
+        gate: "KL1",
+        status: "C",
+        remarks: "LAST CALL"
+      }
     ]
   };
 

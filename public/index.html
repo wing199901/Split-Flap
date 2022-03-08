@@ -1,43 +1,54 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="css/base.css" />
 
-    <!-- ============================================ -->
-    <!-- CUSTOM CSS FOR THIS BOARD -->
-    <link rel="stylesheet" href="plugins/arrivals/custom.css" />
-    <script src="https://kit.fontawesome.com/e97f8f9b19.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <!-- ============================================ -->
-    <!-- CONTAINER -->
-    <div id="board" class="chartContainer splitflap">
-      <h1><i class="fa-solid fa-plane-departure"></i> Departures<img src = "img/AIAT logo.png"></h1>
+<head>
+  <link rel="stylesheet" href="css/base.css" />
 
-      <!-- Header: 30px/char, 15px/separator, 120px/logo -->
-      <div class="header" style="width:220px;margin-left:0px;"></div>
-      <!-- <div class="header" style="width:120px;margin-left:30px;">Flight</div> -->
-      <div class="header" style="width:1680px;margin-left:30px;text-align:left;">
-        School Name
-      </div>
-      <!-- <div class="header" style="width:90px;margin-left:30px;">Gate</div>
+  <!-- ============================================ -->
+  <!-- CUSTOM CSS FOR THIS BOARD -->
+  <link rel="stylesheet" href="plugins/arrivals/custom.css" />
+  <script src="https://kit.fontawesome.com/e97f8f9b19.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ============================================ -->
+  <!-- CONTAINER -->
+  <div id="board" class="chartContainer splitflap">
+    <h1><i class="fa-solid fa-plane-departure"></i> Departures
+      <img src="img/aerosim_logo.png">
+      <img src="img/aiat_logo.png" style="margin-right: 5%;"> 
+    </h1>
+
+    <!-- Header: 30px/char, 15px/separator, 120px/logo -->
+    <div class="header" style="width:120px;margin-left:0px;"></div>
+    <!-- <div class="header" style="width:120px;margin-left:30px;">Flight</div> -->
+    <div class="header" style="width:1680px;margin-left:30px;text-align:left;">
+      School Name
+    </div>
+    <!-- <div class="header" style="width:90px;margin-left:30px;">Gate</div>
       <div class="header" style="width:135px;margin-left:30px;">Scheduled</div>
       -->
-      <div class="header" style="width:270px;margin-left:30px;text-align:left;">
-        Status
-      </div>
-
-      <!-- rows will be placed here dynamically from #row_template -->
+    <div class="header" style="width:70px;margin-left:30px;text-align:left;">
+      School <br>Net
     </div>
-    <!-- END CONTAINER -->
-    <!-- ============================================ -->
+    <div class="header" style="width:70px;margin-left:30px;text-align:left;">
+      Teams
+    </div>
+    <div class="header" style="width:270px;margin-left:30px;text-align:left;">
+      Status
+    </div>
 
-    <!-- ============================================ -->
-    <!-- ROW TEMPLATE -->
-    <script type="text/template" id="row_template">
+    <!-- rows will be placed here dynamically from #row_template -->
+  </div>
+  <!-- END CONTAINER -->
+  <!-- ============================================ -->
+
+  <!-- ============================================ -->
+  <!-- ROW TEMPLATE -->
+  <script type="text/template" id="row_template">
       <div class="row">
-        <div class="group">
+        <!-- <div class="group">
           <img src="/img/light_green.gif" style="height:40px;">
-        </div>
+        </div> -->
         <div class="group airline"> <!-- airline -->
           <div class="image"><span></span></div>
         </div>
@@ -105,18 +116,21 @@
           <div class="character"><span></span></div>
           <div class="character"><span></span></div>
         </div>
-        <!-- <div class="group gate"> 
+         <div class="group gate"> 
+          <div class="character"><span></span></div>
           <div class="character"><span></span></div>
           <div class="number"><span></span></div>
-          <div class="number"><span></span></div>
         </div>
-        <div class="group scheduled"> 
+        <!-- <div class="group scheduled"> 
           <div class="number"><span></span></div>
           <div class="number"><span></span></div>
           <div class="separator">:</div>
           <div class="number"><span></span></div>
           <div class="number"><span></span></div>
         </div> -->
+        <div class="group flight"> 
+          <div class="number"><span></span></div>
+        </div>
         <div class="group remarks"> 
           <div class="full"><span></span></div>
           <div class="full"><span></span></div>
@@ -130,56 +144,58 @@
           <div class="full"><span></span></div>
           <div class="full"><span></span></div>
         </div>
-        <!-- <div class="group status"> 
+        <div class="group status"> 
           <div class="sA"></div>
           <div class="sB"></div>
+          <div class="sC"></div>
+        </div>
+        <!-- <div class="group light">
+          <img src="/img/light_green.gif" style="height: 40px;">
         </div> -->
       </div>
     </script>
-    <!-- END ROW TEMPLATE -->
-    <!-- ============================================ -->
+  <!-- END ROW TEMPLATE -->
+  <!-- ============================================ -->
 
-    <!-- ============================================ -->
-    <!-- JS LIBRARIES -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"
-    ></script>
-    <script type="text/javascript" src="js/split-flap.js"></script>
+  <img src="/img/support_organisation.png" style="
+    display: block;
+    width: 100%;">
 
-    <!-- ============================================ -->
-    <!-- CUSTOM JS FOR THIS BOARD -->
-    <script type="text/javascript" src="plugins/arrivals/custom.js"></script>
-    <script type="text/javascript">
-      // CUSTOMIZATION OPTIONS
-      sf.options = {
-        // REQUIRED
-        plugin: 'arrivals', // Plugin to load
-        container: $('#board'), // Where in the DOM to put the board
-        template: $('#row_template'), // Where in the DOM to find the row template
-        numRows: 12, // number of rows
+  <!-- ============================================ -->
+  <!-- JS LIBRARIES -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+  <script type="text/javascript" src="js/split-flap.js"></script>
 
-        // OPTIONAL
-        sort: 'scheduled', // the column to sort by
-        order: 'asc', // the order to sort by
-        maxResults: 24, // number of items to retrieve from service
-        pageInterval: 30000, // delay between pages (ms)
-        stagger: 2000 // delay between loading rows (ms)
-      };
+  <!-- ============================================ -->
+  <!-- CUSTOM JS FOR THIS BOARD -->
+  <script type="text/javascript" src="plugins/arrivals/custom.js"></script>
+  <script type="text/javascript">
+    // CUSTOMIZATION OPTIONS
+    sf.options = {
+      // REQUIRED
+      plugin: 'arrivals', // Plugin to load
+      container: $('#board'), // Where in the DOM to put the board
+      template: $('#row_template'), // Where in the DOM to find the row template
+      numRows: 13, // number of rows
 
-      $(document).ready(function() {
-        sf.board.init(sf.options);
-        sf.items.init(sf.options);
-        sf.items.load(sf.options);
-      });
-    </script>
-  </body>
+      // OPTIONAL
+      sort: 'scheduled', // the column to sort by
+      order: 'asc', // the order to sort by
+      maxResults: 50, // number of items to retrieve from service
+      pageInterval: 30000, // delay between pages (ms)
+      stagger: 2000 // delay between loading rows (ms)
+    };
+
+    $(document).ready(function () {
+      sf.board.init(sf.options);
+      sf.items.init(sf.options);
+      sf.items.load(sf.options);
+    });
+  </script>
+</body>
+
 </html>

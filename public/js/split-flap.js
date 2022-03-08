@@ -89,7 +89,7 @@ sf.board = {
   }
 };
 
-// This Collection is used to hold the datset for this board.
+// This Collection is used to hold the dataset for this board.
 // If there's more results than rows, it will page the results
 // at options.pageInterval.
 sf.Items = Backbone.Collection.extend({
