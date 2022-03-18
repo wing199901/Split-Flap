@@ -26,7 +26,7 @@ The look and feel are fully configurable by changing the markup and using differ
 git clone https://github.com/baspete/Split-Flap.git
 cd Split-Flap
 npm install
-node app.js
+nodemon .
 ```
 
 Navigate to `http://locahost:8080` in your browser.

@@ -22,240 +22,205 @@
 }
 
 /* transition */
+
 .splitflap .image span.csp {
   background-position: 0px -40px;
 }
 
 /* blank */
-.splitflap .image span.SWA {
+
+.splitflap .image span.AAA {
   background-position: 0px -80px;
 }
 
-/* southwest */
-.splitflap .image span.AAL {
+.splitflap .image span.AAB {
   background-position: 0px -120px;
 }
 
-/* american */
-.splitflap .image span.BAW {
+.splitflap .image span.AAC {
   background-position: 0px -160px;
 }
 
-/* british airways */
-.splitflap .image span.DAL {
+.splitflap .image span.AAD {
   background-position: 0px -200px;
 }
 
-/* delta */
-.splitflap .image span.UAE {
+.splitflap .image span.AAE {
   background-position: 0px -240px;
 }
 
-/* emirates */
-.splitflap .image span.KLM {
+.splitflap .image span.AAF {
   background-position: 0px -280px;
 }
 
-/* klm */
-.splitflap .image span.DLH {
+.splitflap .image span.AAG {
   background-position: 0px -320px;
 }
 
-/* lufthansa */
-.splitflap .image span.ASA {
+.splitflap .image span.AAH {
   background-position: 0px -360px;
 }
 
-/* alaska */
-.splitflap .image span.UAL {
+.splitflap .image span.AAI {
   background-position: 0px -400px;
 }
 
-/* united */
-.splitflap .image span.FDX {
+.splitflap .image span.AAJ {
   background-position: 0px -440px;
 }
 
-/* fedex */
-.splitflap .image span.PXM {
+.splitflap .image span.AAK {
   background-position: 0px -480px;
 }
 
-/* westair (Fedex Short Haul) */
-.splitflap .image span.SKW {
+.splitflap .image span.AAL {
   background-position: 0px -520px;
 }
 
-/* skywest */
-.splitflap .image span.JBU {
+.splitflap .image span.AAM {
   background-position: 0px -560px;
 }
 
-/* jetblue */
-.splitflap .image span.ACA {
+.splitflap .image span.AAN {
   background-position: 0px -600px;
 }
 
-/* air canada */
-.splitflap .image span.QXE {
+.splitflap .image span.AAO {
   background-position: 0px -640px;
 }
 
-/* horizon air */
-.splitflap .image span.NKS {
+.splitflap .image span.AAP {
   background-position: 0px -680px;
 }
 
-/* spirit */
-.splitflap .image span.VIR {
+.splitflap .image span.AAQ {
   background-position: 0px -720px;
 }
 
-/* virgin atlantic */
-.splitflap .image span.LXJ {
+.splitflap .image span.AAR {
   background-position: 0px -760px;
 }
 
-/* flexjet */
-.splitflap .image span.QFA {
+.splitflap .image span.AAS {
   background-position: 0px -800px;
 }
 
-/* qantas */
-.splitflap .image span.AAA {
+.splitflap .image span.AAT {
   background-position: 0px -840px;
 }
 
-.splitflap .image span.AAB {
+.splitflap .image span.AAU {
   background-position: 0px -880px;
 }
 
-.splitflap .image span.AAC {
+.splitflap .image span.AAV {
   background-position: 0px -920px;
 }
 
-.splitflap .image span.AAD {
+.splitflap .image span.AAW {
   background-position: 0px -960px;
 }
 
-.splitflap .image span.AAE {
+.splitflap .image span.AAX {
   background-position: 0px -1000px;
 }
 
-.splitflap .image span.AAF {
+.splitflap .image span.AAY {
   background-position: 0px -1040px;
 }
 
-.splitflap .image span.AAG {
+.splitflap .image span.AAZ {
   background-position: 0px -1080px;
 }
 
-.splitflap .image span.AAH {
+.splitflap .image span.ABA {
   background-position: 0px -1120px;
 }
 
-.splitflap .image span.AAI {
+.splitflap .image span.ABB {
   background-position: 0px -1160px;
 }
 
-.splitflap .image span.AAJ {
+.splitflap .image span.ABC {
   background-position: 0px -1200px;
 }
 
-.splitflap .image span.AAK {
+.splitflap .image span.ABD {
   background-position: 0px -1240px;
 }
 
-.splitflap .image span.ZZZ {
+.splitflap .image span.ABE {
   background-position: 0px -1280px;
 }
 
-.splitflap .image span.AAM {
+.splitflap .image span.ABF {
   background-position: 0px -1320px;
 }
 
-.splitflap .image span.AAN {
+.splitflap .image span.ABG {
   background-position: 0px -1360px;
 }
 
-.splitflap .image span.AAO {
+.splitflap .image span.ABH {
   background-position: 0px -1400px;
 }
 
-.splitflap .image span.AAP {
+.splitflap .image span.ABI {
   background-position: 0px -1440px;
 }
 
-.splitflap .image span.AAQ {
+.splitflap .image span.ABJ {
   background-position: 0px -1480px;
 }
 
-.splitflap .image span.AAR {
+.splitflap .image span.ABK {
   background-position: 0px -1520px;
 }
 
-.splitflap .image span.AAS {
+.splitflap .image span.ABL {
   background-position: 0px -1560px;
 }
 
-.splitflap .image span.AAT {
+.splitflap .image span.ABM {
   background-position: 0px -1600px;
 }
 
-.splitflap .image span.AAU {
+.splitflap .image span.ABN {
   background-position: 0px -1640px;
 }
 
-.splitflap .image span.AAV {
+.splitflap .image span.ABO {
   background-position: 0px -1680px;
 }
 
-.splitflap .image span.AAW {
+.splitflap .image span.ABP {
   background-position: 0px -1720px;
 }
 
-.splitflap .image span.AAX {
+.splitflap .image span.ABQ {
   background-position: 0px -1760px;
 }
 
-.splitflap .image span.AAY {
+.splitflap .image span.ABR {
   background-position: 0px -1800px;
 }
 
-.splitflap .image span.AAZ {
+.splitflap .image span.ABS {
   background-position: 0px -1840px;
 }
 
-.splitflap .image span.ABA {
+.splitflap .image span.ABT {
   background-position: 0px -1880px;
 }
 
-.splitflap .image span.ABB {
+.splitflap .image span.ABU {
   background-position: 0px -1920px;
 }
 
-.splitflap .image span.ABC {
+.splitflap .image span.ABV {
   background-position: 0px -1960px;
 }
 
-.splitflap .image span.ABD {
+.splitflap .image span.ABW {
   background-position: 0px -2000px;
-}
-.splitflap .image span.ABE {
-  background-position: 0px -2040px;
-}
-.splitflap .image span.ABF {
-  background-position: 0px -2080px;
-}
-.splitflap .image span.ABG {
-  background-position: 0px -2120px;
-}
-.splitflap .image span.ABH {
-  background-position: 0px -2160px;
-}
-.splitflap .image span.ABI {
-  background-position: 0px -2200px;
-}
-.splitflap .image span.ABJ {
-  background-position: 0px -2240px;
 }

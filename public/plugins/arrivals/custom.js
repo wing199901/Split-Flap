@@ -1,27 +1,6 @@
-sf.display.ImageDrum = function() {
+sf.display.ImageDrum = function () {
   return [
     ' ',
-    'SWA',
-    'AAL',
-    'BAW',
-    'DAL',
-    'UAE',
-    'KLM',
-    'DLH',
-    'ASA',
-    'UAL',
-    'FDX',
-    'PXM',
-    'SKW',
-    'JBU',
-    'ACA',
-    'QXE',
-    'NKS',
-    'VIR',
-    'LXJ',
-    'QFA',
-    'SSC',
-    'UCC',
     'AAA',
     'AAB',
     'AAC',
@@ -33,7 +12,7 @@ sf.display.ImageDrum = function() {
     'AAI',
     'AAJ',
     'AAK',
-    'ZZZ',
+    'AAL',
     'AAM',
     'AAN',
     'AAO',
@@ -57,18 +36,31 @@ sf.display.ImageDrum = function() {
     'ABG',
     'ABH',
     'ABI',
-    'ABJ'
+    'ABJ',
+    'ABK',
+    'ABL',
+    'ABM',
+    'ABN',
+    'ABO',
+    'ABP',
+    'ABQ',
+    'ABR',
+    'ABS',
+    'ABT',
+    'ABU',
+    'ABV',
+    'ABW'
   ];
 };
 
 sf.plugins.arrivals = {
   dataType: 'json',
 
-  url: function(options) {
+  url: function (options) {
     return 'api/arrivals';
   },
 
-  formatData: function(response) {
+  formatData: function (response) {
     return response.data;
   }
 };
