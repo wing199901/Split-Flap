@@ -51,7 +51,13 @@ sf.display.ImageDrum = function() {
     'ABA',
     'ABB',
     'ABC',
-    'ABD'
+    'ABD',
+    'ABE',
+    'ABF',
+    'ABG',
+    'ABH',
+    'ABI',
+    'ABJ'
   ];
 };
 

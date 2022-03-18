@@ -299,9 +299,9 @@ app.use('/api/arrivals', (req, res) => {
         airline: "AAC",
         flight: 1,
         city: "West Island School",
-        gate: "HK1",
-        status: "B",
-        remarks: "GATE OPEN"
+        gate: "INT",
+        status: "A",
+        remarks: "BOARDING"
       },
       {
         airline: "AAD",
@@ -324,8 +324,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "Queen's College",
         gate: "HK1",
-        status: "C",
-        remarks: "LAST CALL"
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "AAG",
@@ -348,8 +348,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "PHC Wing Kwong College",
         gate: "KL4",
-        status: "C",
-        remarks: "LAST CALL"
+        status: "B",
+        remarks: "GATE OPEN"
       },
       {
         airline: "AAJ",
@@ -380,8 +380,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "Hong Kong Teachers' Association Lee Heng Kwei Secondary School",
         gate: "NT6",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
       },
       {
         airline: "AAN",
@@ -402,10 +402,10 @@ app.use('/api/arrivals', (req, res) => {
       {
         airline: "AAP",
         flight: 1,
-        city: "Carmel Alison Lam Foundation Secondary School",
-        gate: "NT1",
-        status: "C",
-        remarks: "LAST CALL"
+        city: "TWGHs Kap Yan Directors' College",
+        gate: "NT5",
+        status: "A",
+        remarks: "BOARDING"
       },
       {
         airline: "AAQ",
@@ -436,13 +436,13 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "United Christian College (Kowloon East)",
         gate: "KL5",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
       },
       {
         airline: "AAU",
         flight: 1,
-        city: "Queen's College Old Boys' Association Secoondary School",
+        city: "Queen's College Old Boys' Association Secondary School",
         gate: "HK1",
         status: "B",
         remarks: "GATE OPEN"
@@ -466,10 +466,10 @@ app.use('/api/arrivals', (req, res) => {
       {
         airline: "AAX",
         flight: 1,
-        city: "Po Leung Kuk Lo Kit Sing (1983) College",
-        gate: "NT1",
-        status: "C",
-        remarks: "LAST CALL"
+        city: "CCC Kei Yuen College",
+        gate: "NT4",
+        status: "A",
+        remarks: "BOARDING"
       },
       {
         airline: "AAY",
@@ -518,6 +518,54 @@ app.use('/api/arrivals', (req, res) => {
         gate: "KL1",
         status: "C",
         remarks: "LAST CALL"
+      },
+      {
+        airline: "ABE",
+        flight: 2,
+        city: "HKWMA Chu Shek Lun Secondary School",
+        gate: "KL1",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "ABF",
+        flight: 1,
+        city: "Korean International School",
+        gate: "INT",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "ABG",
+        flight: 1,
+        city: "Tsuen Wan Public Ho Chuen Yiu Memorial College",
+        gate: "NT2",
+        status: "A",
+        remarks: "BOARDING"
+      },
+      {
+        airline: "ABH",
+        flight: 1,
+        city: "Chinese YMCA Secondary School",
+        gate: "NT4",
+        status: "A",
+        remarks: "BOARDING"
+      },
+      {
+        airline: "ABI",
+        flight: 1,
+        city: "N.T. Heung Yee Kuk Yuen Long District Secondary School",
+        gate: "NT4",
+        status: "B",
+        remarks: "GATE OPEN"
+      },
+      {
+        airline: "ABJ",
+        flight: 1,
+        city: "SKH TANG SHIU KIN SECONDARY SCHOOL",
+        gate: "HK1",
+        status: "B",
+        remarks: "GATE OPEN"
       }
     ]
   };
