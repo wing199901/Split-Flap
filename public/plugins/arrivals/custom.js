@@ -1,6 +1,7 @@
 sf.display.ImageDrum = function () {
   return [
     ' ',
+    // REPLACE STARTS HERE //
     'AAA',
     'AAB',
     'AAC',
@@ -39,17 +40,8 @@ sf.display.ImageDrum = function () {
     'ABJ',
     'ABK',
     'ABL',
-    'ABM',
-    'ABN',
-    'ABO',
-    'ABP',
-    'ABQ',
-    'ABR',
-    'ABS',
-    'ABT',
-    'ABU',
-    'ABV',
-    'ABW'
+    'ABM'
+    // REPLACE ENDS HERE //
   ];
 };
 
