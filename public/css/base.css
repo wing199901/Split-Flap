@@ -21,7 +21,9 @@ h1 img {
   width: 250px;
 }
 .splitflap {
-  width: 2500px;
+  max-width: 2500px;
+  min-width: 1200px;
+  width: 100%;
   overflow: none;
   white-space: nowrap;
   margin: 20px 10px;
@@ -42,9 +44,44 @@ h1 img {
   height: 60px;
 }
 .splitflap .group {
-  float: left;
-  margin-right: 30px;
+  display: inline-block;
+  overflow: hidden;
+  /*float: left;
+  margin-right: 30px;*/
 }
+.splitflap .group:after {
+  content: '';
+  width: 30px;
+  display: inline-block;
+}
+
+.splitflap .city {
+  max-width: 1710px;
+  min-width: 410px;
+  max-height: 40px;
+  width: min(1710px, calc(100% - 790px));
+  display: inline-block;
+  overflow: hidden;
+}
+/*
+
+.splitflap .airline:after {
+  width: 20%;
+}
+.splitflap .city:after {
+  width: 17.51%;
+}
+.splitflap .gate:after {
+  width: 25%;
+}
+.splitflap .flight:after {
+  width: 50%;
+}
+.splitflap .remarks:after {
+  width: 8.33%;
+}
+*/
+
 .splitflap .separator {
   float: left;
   height: 40px;
