@@ -18,60 +18,60 @@ h1 {
 h1 img {
   float: right;
   margin-right: 1%;
-  width: min(250px,250/1200*100vw);
+  width: min(250px,250/2500*100vw);
 }
 .splitflap {
   max-width: 2500px;
   width: 100vw;
   overflow: none;
   white-space: nowrap;
-  margin: min(20px,20/1200*100vw) min(10px,10/1200*100vw);
+  margin: min(20px,20/2500*100vw) min(10px,10/2500*100vw);
 }
 .splitflap h1 {
   text-transform: uppercase;
-  font-size: min(40px,40/1200*100vw);
+  font-size: min(40px,40/2500*100vw);
 }
 .splitflap .header {
   float: left;
-  font-size: min(21px,21/1200*100vw);
+  font-size: min(21px,21/2500*100vw);
   font-weight: bold;
   text-align: center;
-  margin-bottom: min(20px,20/1200*100vw);
+  margin-bottom: min(20px,20/2500*100vw);
 }
 .splitflap .row {
   clear: both;
-  height: min(60px,60/1200*100vw);
+  height: min(60px,60/2500*100vw);
 }
 .splitflap .group {
   display: inline-block;
   overflow: hidden;
-  margin-top: min(20px,20/1200*100vw);
+  margin-top: min(20px,20/2500*100vw);
   /*float: left;
   margin-right: 30px;*/
 }
 .splitflap .group:after {
   content: '';
-  width: min(30px,30/1200*100vw);
+  width: min(30px,30/2500*100vw);
   display: inline-block;
 }
 
 .splitflap .city {
   max-width: 1710px;
-  min-width: min(410px,410/1200*100vw);
-  width: min(1710px, calc(100% - 790px));
-  height: min(40px,40/1200*100vw);
+  min-width: min(1710px,1710/2500*100vw);
+  width: min(1710px, calc(100vw - 790px));
+  height: min(40px,40/2500*100vw);
   display: inline-block;
   overflow: hidden;
 }
 .splitflap .remarks:after {
   content: '';
-  width: min(10px,10/1200*100vw);
+  width: min(10px,10/2500*100vw);
   display: inline-block;
 }
 
 .splitflap .airline {
-  width: min(150px,150/1200*100vw);
-  height: min(40px,40/1200*100vw);
+  width: min(150px,150/2500*100vw);
+  height: min(40px,40/2500*100vw);
 }
 /*
 
@@ -94,57 +94,57 @@ h1 img {
 
 .splitflap .separator {
   float: left;
-  height: min(40px,40/1200*100vw);
-  width: min(15px,15/1200*100vw);
+  height: min(40px,40/2500*100vw);
+  width: min(15px,15/2500*100vw);
   font-weight: bold;
   font-size: 1.8em;
 }
 .splitflap .status {
   margin-right: 0px;
-  margin-top: min(22px,22/1200*100vw);;
+  margin-top: min(22px,22/2500*100vw);;
   vertical-align: top;
 }
 .splitflap .status div {
   float: left;
-  margin: min(10px,15/1200*100vw) min(10px,10/1200*100vw) 0 0;
-  width: min(18px,18/1200*100vw);
-  height: min(18px,18/1200*100vw);
+  margin: min(10px,15/2500*100vw) min(10px,10/2500*100vw) 0 0;
+  width: min(18px,18/2500*100vw);
+  height: min(18px,18/2500*100vw);
 }
 .splitflap .status div.on {
-  background-position: max(-18px,-18/1200*100vw) 0;
+  background-position: max(-18px,-18/2500*100vw) 0;
 }
 .splitflap .status .sA {
   background: url('../img/lights_green.png') no-repeat;
-  background-size: min(36px,36/1200*100vw);
+  background-size: min(36px,36/2500*100vw);
 }
 .splitflap .status .sB {
   background: url('../img/lights_yellow.png') no-repeat;
-  background-size: min(36px,36/1200*100vw);
+  background-size: min(36px,36/2500*100vw);
 }
 .splitflap .status .sC {
   background: url('../img/lights_red.png') no-repeat;
-  background-size: min(36px,36/1200*100vw);
+  background-size: min(36px,36/2500*100vw);
 }
 .splitflap .full,
 .splitflap .number,
 .splitflap .character {
   float: left;
-  margin-right: min(5px,5/1200*100vw);
-  width: min(25px,25/1200*100vw);
-  height: min(40px,40/1200*100vw);
+  margin-right: min(5px,5/2500*100vw);
+  width: min(25px,25/2500*100vw);
+  height: min(40px,40/2500*100vw);
   background: url('../img/split-flap-letters-yellow-sm-full.png') no-repeat;
   background-position: 0px 0px;
-  background-size: min(1275px,1275/1200*100vw);
+  background-size: min(1275px,1275/2500*100vw);
 }
 .splitflap .full span,
 .splitflap .number span,
 .splitflap .character span {
-  width: min(25px,25/1200*100vw);
-  height: min(40px,40/1200*100vw);
+  width: min(25px,25/2500*100vw);
+  height: min(40px,40/2500*100vw);
   display: block;
   background: url('../img/split-flap-letters-yellow-sm-full.png') no-repeat;
-  background-position: max(-25px,-25/1200*100vw) 0px; /* start with a space */
-  background-size: min(1275px,1275/1200*100vw);
+  background-position: max(-25px,-25/2500*100vw) 0px; /* start with a space */
+  background-size: min(1275px,1275/2500*100vw);
 }
 
 /* SPACE AND TRANSITION IMAGES */
@@ -152,284 +152,284 @@ h1 img {
   background-position: 0px 0px;
 } /* transition */
 .splitflap span.csp {
-  background-position: max(-25px,-25/1200*100vw) 0px;
+  background-position: max(-25px,-25/2500*100vw) 0px;
 } /* space */
 /* FULL SET DRUM */
 .splitflap .full span.csp {
-  background-position: max(-25px,-25/1200*100vw) 0px;
+  background-position: max(-25px,-25/2500*100vw) 0px;
 } /* space */
 .splitflap .full span.cA {
-  background-position: max(-50px,-50/1200*100vw) 0px;
+  background-position: max(-50px,-50/2500*100vw) 0px;
 } /* A */
 .splitflap .full span.cB {
-  background-position: max(-75px,-75/1200*100vw) 0px;
+  background-position: max(-75px,-75/2500*100vw) 0px;
 }
 .splitflap .full span.cC {
-  background-position: max(-100px,-100/1200*100vw) 0px;
+  background-position: max(-100px,-100/2500*100vw) 0px;
 }
 .splitflap .full span.cD {
-  background-position: max(-125px,-125/1200*100vw) 0px;
+  background-position: max(-125px,-125/2500*100vw) 0px;
 }
 .splitflap .full span.cE {
-  background-position: max(-150px,-150/1200*100vw) 0px;
+  background-position: max(-150px,-150/2500*100vw) 0px;
 }
 .splitflap .full span.cF {
-  background-position: max(-175px,-175/1200*100vw) 0px;
+  background-position: max(-175px,-175/2500*100vw) 0px;
 }
 .splitflap .full span.cG {
-  background-position: max(-200px,-200/1200*100vw) 0px;
+  background-position: max(-200px,-200/2500*100vw) 0px;
 }
 .splitflap .full span.cH {
-  background-position: max(-225px,-225/1200*100vw) 0px;
+  background-position: max(-225px,-225/2500*100vw) 0px;
 }
 .splitflap .full span.cI {
-  background-position: max(-250px,-250/1200*100vw) 0px;
+  background-position: max(-250px,-250/2500*100vw) 0px;
 }
 .splitflap .full span.cJ {
-  background-position: max(-275px,-275/1200*100vw) 0px;
+  background-position: max(-275px,-275/2500*100vw) 0px;
 }
 .splitflap .full span.cK {
-  background-position: max(-300px,-300/1200*100vw) 0px;
+  background-position: max(-300px,-300/2500*100vw) 0px;
 }
 .splitflap .full span.cL {
-  background-position: max(-325px,-325/1200*100vw) 0px;
+  background-position: max(-325px,-325/2500*100vw) 0px;
 }
 .splitflap .full span.cM {
-  background-position: max(-350px,-350/1200*100vw) 0px;
+  background-position: max(-350px,-350/2500*100vw) 0px;
 }
 .splitflap .full span.cN {
-  background-position: max(-375px,-375/1200*100vw) 0px;
+  background-position: max(-375px,-375/2500*100vw) 0px;
 }
 .splitflap .full span.cO {
-  background-position: max(-400px,-400/1200*100vw) 0px;
+  background-position: max(-400px,-400/2500*100vw) 0px;
 }
 .splitflap .full span.cP {
-  background-position: max(-425px,-425/1200*100vw) 0px;
+  background-position: max(-425px,-425/2500*100vw) 0px;
 }
 .splitflap .full span.cQ {
-  background-position: max(-450px,-450/1200*100vw) 0px;
+  background-position: max(-450px,-450/2500*100vw) 0px;
 }
 .splitflap .full span.cR {
-  background-position: max(-475px,-475/1200*100vw) 0px;
+  background-position: max(-475px,-475/2500*100vw) 0px;
 }
 .splitflap .full span.cS {
-  background-position: max(-500px,-500/1200*100vw) 0px;
+  background-position: max(-500px,-500/2500*100vw) 0px;
 }
 .splitflap .full span.cT {
-  background-position: max(-525px,-525/1200*100vw) 0px;
+  background-position: max(-525px,-525/2500*100vw) 0px;
 }
 .splitflap .full span.cU {
-  background-position: max(-550px,-550/1200*100vw) 0px;
+  background-position: max(-550px,-550/2500*100vw) 0px;
 }
 .splitflap .full span.cV {
-  background-position: max(-575px,-575/1200*100vw) 0px;
+  background-position: max(-575px,-575/2500*100vw) 0px;
 }
 .splitflap .full span.cW {
-  background-position: max(-600px,-600/1200*100vw) 0px;
+  background-position: max(-600px,-600/2500*100vw) 0px;
 }
 .splitflap .full span.cX {
-  background-position: max(-625px,-625/1200*100vw) 0px;
+  background-position: max(-625px,-625/2500*100vw) 0px;
 }
 .splitflap .full span.cY {
-  background-position: max(-650px,-650/1200*100vw) 0px;
+  background-position: max(-650px,-650/2500*100vw) 0px;
 }
 .splitflap .full span.cZ {
-  background-position: max(-675px,-675/1200*100vw) 0px;
+  background-position: max(-675px,-675/2500*100vw) 0px;
 } /* Z */
 .splitflap .full span.c0 {
-  background-position: max(-700px,-700/1200*100vw) 0px;
+  background-position: max(-700px,-700/2500*100vw) 0px;
 } /* 0 */
 .splitflap .full span.c1 {
-  background-position: max(-725px,-725/1200*100vw) 0px;
+  background-position: max(-725px,-725/2500*100vw) 0px;
 }
 .splitflap .full span.c2 {
-  background-position: max(-750px,-750/1200*100vw) 0px;
+  background-position: max(-750px,-750/2500*100vw) 0px;
 }
 .splitflap .full span.c3 {
-  background-position: max(-775px,-775/1200*100vw) 0px;
+  background-position: max(-775px,-775/2500*100vw) 0px;
 }
 .splitflap .full span.c4 {
-  background-position: max(-800px,-800/1200*100vw) 0px;
+  background-position: max(-800px,-800/2500*100vw) 0px;
 }
 .splitflap .full span.c5 {
-  background-position: max(-825px,-825/1200*100vw) 0px;
+  background-position: max(-825px,-825/2500*100vw) 0px;
 }
 .splitflap .full span.c6 {
-  background-position: max(-850px,-850/1200*100vw) 0px;
+  background-position: max(-850px,-850/2500*100vw) 0px;
 }
 .splitflap .full span.c7 {
-  background-position: max(-875px,-875/1200*100vw) 0px;
+  background-position: max(-875px,-875/2500*100vw) 0px;
 }
 .splitflap .full span.c8 {
-  background-position: max(-900px,-900/1200*100vw) 0px;
+  background-position: max(-900px,-900/2500*100vw) 0px;
 }
 .splitflap .full span.c9 {
-  background-position: max(-925px,-925/1200*100vw) 0px;
+  background-position: max(-925px,-925/2500*100vw) 0px;
 } /* 9 */
 .splitflap .full span.cper {
-  background-position: max(-950px,-950/1200*100vw) 0px;
+  background-position: max(-950px,-950/2500*100vw) 0px;
 } /* . */
 .splitflap .full span.ccom {
-  background-position: max(-975px,-975/1200*100vw) 0px;
+  background-position: max(-975px,-975/2500*100vw) 0px;
 } /* , */
 .splitflap .full span.cque {
-  background-position: max(-1000px,-1000/1200*100vw) 0px;
+  background-position: max(-1000px,-1000/2500*100vw) 0px;
 } /* ? */
 .splitflap .full span.cexc {
-  background-position: max(-1025px,-1025/1200*100vw) 0px;
+  background-position: max(-1025px,-1025/2500*100vw) 0px;
 } /* ! */
 .splitflap .full span.csla {
-  background-position: max(-1050px,-1050/1200*100vw) 0px;
+  background-position: max(-1050px,-1050/2500*100vw) 0px;
 } /* / */
 .splitflap .full span.capo {
-  background-position: max(-1075px,-1075/1200*100vw) 0px;
+  background-position: max(-1075px,-1075/2500*100vw) 0px;
 } /* ' */
 .splitflap .full span.cplu {
-  background-position: max(-1100px,-1100/1200*100vw) 0px;
+  background-position: max(-1100px,-1100/2500*100vw) 0px;
 } /* + */
 .splitflap .full span.cmin {
-  background-position: max(-1125px,-1125/1200*100vw) 0px;
+  background-position: max(-1125px,-1125/2500*100vw) 0px;
 } /* - */
 .splitflap .full span.ccol {
-  background-position: max(-1150px,-1150/1200*100vw) 0px;
+  background-position: max(-1150px,-1150/2500*100vw) 0px;
 } /* : */
 .splitflap .full span.cat {
-  background-position: max(-1175px,-1175/1200*100vw) 0px;
+  background-position: max(-1175px,-1175/2500*100vw) 0px;
 } /* @ */
 .splitflap .full span.chsh {
-  background-position: max(-1200px,-1200/1200*100vw) 0px;
+  background-position: max(-2500px,-2500/2500*100vw) 0px;
 } /* # */
 .splitflap .full span.cup {
-  background-position: max(-1225px,-1225/1200*100vw) 0px;
+  background-position: max(-1225px,-1225/2500*100vw) 0px;
 } /* ↓ */
 .splitflap .full span.cdn {
-  background-position: max(-1250px,-1250/1200*100vw) 0px;
+  background-position: max(-1250px,-1250/2500*100vw) 0px;
 } /* ↓ */
 /* NUMBERS ONLY DRUM */
 .splitflap .number span.csp {
-  background-position: max(-25px,-25/1200*100vw) 0px;
+  background-position: max(-25px,-25/2500*100vw) 0px;
 } /* space */
 .splitflap .number span.c0 {
-  background-position: max(-700px,-700/1200*100vw) 0px;
+  background-position: max(-700px,-700/2500*100vw) 0px;
 } /* 0 */
 .splitflap .number span.c1 {
-  background-position: max(-725px,-725/1200*100vw) 0px;
+  background-position: max(-725px,-725/2500*100vw) 0px;
 }
 .splitflap .number span.c2 {
-  background-position: max(-750px,-750/1200*100vw) 0px;
+  background-position: max(-750px,-750/2500*100vw) 0px;
 }
 .splitflap .number span.c3 {
-  background-position: max(-775px,-775/1200*100vw) 0px;
+  background-position: max(-775px,-775/2500*100vw) 0px;
 }
 .splitflap .number span.c4 {
-  background-position: max(-800px,-800/1200*100vw) 0px;
+  background-position: max(-800px,-800/2500*100vw) 0px;
 }
 .splitflap .number span.c5 {
-  background-position: max(-825px,-825/1200*100vw) 0px;
+  background-position: max(-825px,-825/2500*100vw) 0px;
 }
 .splitflap .number span.c6 {
-  background-position: max(-850px,-850/1200*100vw) 0px;
+  background-position: max(-850px,-850/2500*100vw) 0px;
 }
 .splitflap .number span.c7 {
-  background-position: max(-875px,-875/1200*100vw) 0px;
+  background-position: max(-875px,-875/2500*100vw) 0px;
 }
 .splitflap .number span.c8 {
-  background-position: max(-900px,-900/1200*100vw) 0px;
+  background-position: max(-900px,-900/2500*100vw) 0px;
 }
 .splitflap .number span.c9 {
-  background-position: max(-925px,-925/1200*100vw) 0px;
+  background-position: max(-925px,-925/2500*100vw) 0px;
 } /* 9 */
 .splitflap .number span.cper {
-  background-position: max(-950px,-950/1200*100vw) 0px;
+  background-position: max(-950px,-950/2500*100vw) 0px;
 } /* . */
 .splitflap .number span.ccom {
-  background-position: max(-975px,-975/1200*100vw) 0px;
+  background-position: max(-975px,-975/2500*100vw) 0px;
 } /* , */
 /* CHARACTERS ONLY DRUM */
 .splitflap .character span.csp {
-  background-position: max(-25px,-25/1200*100vw) 0px;
+  background-position: max(-25px,-25/2500*100vw) 0px;
 } /* space */
 .splitflap .character span.cA {
-  background-position: max(-50px,-50/1200*100vw) 0px;
+  background-position: max(-50px,-50/2500*100vw) 0px;
 } /* A */
 .splitflap .character span.cB {
-  background-position: max(-75px,-75/1200*100vw) 0px;
+  background-position: max(-75px,-75/2500*100vw) 0px;
 }
 .splitflap .character span.cC {
-  background-position: max(-100px,-100/1200*100vw) 0px;
+  background-position: max(-100px,-100/2500*100vw) 0px;
 }
 .splitflap .character span.cD {
-  background-position: max(-125px,-125/1200*100vw) 0px;
+  background-position: max(-125px,-125/2500*100vw) 0px;
 }
 .splitflap .character span.cE {
-  background-position: max(-150px,-150/1200*100vw) 0px;
+  background-position: max(-150px,-150/2500*100vw) 0px;
 }
 .splitflap .character span.cF {
-  background-position: max(-175px,-175/1200*100vw) 0px;
+  background-position: max(-175px,-175/2500*100vw) 0px;
 }
 .splitflap .character span.cG {
-  background-position: max(-200px,-200/1200*100vw) 0px;
+  background-position: max(-200px,-200/2500*100vw) 0px;
 }
 .splitflap .character span.cH {
-  background-position: max(-225px,-225/1200*100vw) 0px;
+  background-position: max(-225px,-225/2500*100vw) 0px;
 }
 .splitflap .character span.cI {
-  background-position: max(-250px,-250/1200*100vw) 0px;
+  background-position: max(-250px,-250/2500*100vw) 0px;
 }
 .splitflap .character span.cJ {
-  background-position: max(-275px,-275/1200*100vw) 0px;
+  background-position: max(-275px,-275/2500*100vw) 0px;
 }
 .splitflap .character span.cK {
-  background-position: max(-300px,-300/1200*100vw) 0px;
+  background-position: max(-300px,-300/2500*100vw) 0px;
 }
 .splitflap .character span.cL {
-  background-position: max(-325px,-325/1200*100vw) 0px;
+  background-position: max(-325px,-325/2500*100vw) 0px;
 }
 .splitflap .character span.cM {
-  background-position: max(-350px,-350/1200*100vw) 0px;
+  background-position: max(-350px,-350/2500*100vw) 0px;
 }
 .splitflap .character span.cN {
-  background-position: max(-375px,-375/1200*100vw) 0px;
+  background-position: max(-375px,-375/2500*100vw) 0px;
 }
 .splitflap .character span.cO {
-  background-position: max(-400px,-400/1200*100vw) 0px;
+  background-position: max(-400px,-400/2500*100vw) 0px;
 }
 .splitflap .character span.cP {
-  background-position: max(-425px,-425/1200*100vw) 0px;
+  background-position: max(-425px,-425/2500*100vw) 0px;
 }
 .splitflap .character span.cQ {
-  background-position: max(-450px,-450/1200*100vw) 0px;
+  background-position: max(-450px,-450/2500*100vw) 0px;
 }
 .splitflap .character span.cR {
-  background-position: max(-475px,-475/1200*100vw) 0px;
+  background-position: max(-475px,-475/2500*100vw) 0px;
 }
 .splitflap .character span.cS {
-  background-position: max(-500px,-500/1200*100vw) 0px;
+  background-position: max(-500px,-500/2500*100vw) 0px;
 }
 .splitflap .character span.cT {
-  background-position: max(-525px,-525/1200*100vw) 0px;
+  background-position: max(-525px,-525/2500*100vw) 0px;
 }
 .splitflap .character span.cU {
-  background-position: max(-550px,-550/1200*100vw) 0px;
+  background-position: max(-550px,-550/2500*100vw) 0px;
 }
 .splitflap .character span.cV {
-  background-position: max(-575px,-575/1200*100vw) 0px;
+  background-position: max(-575px,-575/2500*100vw) 0px;
 }
 .splitflap .character span.cW {
-  background-position: max(-600px,-600/1200*100vw) 0px;
+  background-position: max(-600px,-600/2500*100vw) 0px;
 }
 .splitflap .character span.cX {
-  background-position: max(-625px,-625/1200*100vw) 0px;
+  background-position: max(-625px,-625/2500*100vw) 0px;
 }
 .splitflap .character span.cY {
-  background-position: max(-650px,-650/1200*100vw) 0px;
+  background-position: max(-650px,-650/2500*100vw) 0px;
 }
 .splitflap .character span.cZ {
-  background-position: max(-675px,-675/1200*100vw) 0px;
+  background-position: max(-675px,-675/2500*100vw) 0px;
 } /* Z */
 .splitflap .character span.cper {
-  background-position: max(-950px,-950/1200*100vw) 0px;
+  background-position: max(-950px,-950/2500*100vw) 0px;
 } /* . */
 .splitflap .character span.ccom {
-  background-position: max(-975px,-975/1200*100vw) 0px;
+  background-position: max(-975px,-975/2500*100vw) 0px;
 } /* , */

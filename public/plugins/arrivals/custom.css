@@ -1,21 +1,21 @@
 /* AIRLINE LOGOS DRUM */
 .splitflap .image {
   float: left;
-  margin-right: min(5px,5/1200*100vw);
-  width: min(115px,115/1200*100vw);
-  height: min(40px,40/1200*100vw);
+  margin-right: min(5px,5/2500*100vw);
+  width: min(115px,115/2500*100vw);
+  height: min(40px,40/2500*100vw);
   background: url('airline_logos.png') no-repeat;
   background-position: 0px 0px;
-  background-size: min(115px,115/1200*100vw);
+  background-size: min(115px,115/2500*100vw);
 }
 
 .splitflap .image span {
-  width: min(115px,115/1200*100vw);
-  height: min(40px,40/1200*100vw);
+  width: min(115px,115/2500*100vw);
+  height: min(40px,40/2500*100vw);
   display: block;
   background: url('airline_logos.png') no-repeat;
-  background-position: 0px max(-40px, -40/1200*100vw);
-  background-size: min(115px,115/1200*100vw);
+  background-position: 0px max(-40px, -40/2500*100vw);
+  background-size: min(115px,115/2500*100vw);
   /* start with a blank */
 }
 
@@ -26,128 +26,128 @@
 /* transition */
 
 .splitflap .image span.csp {
-  background-position: 0px max(-40px, -40/1200*100vw);
+  background-position: 0px max(-40px, -40/2500*100vw);
 }
 
 /* blank */
 
 /* REPLACE STARTING FROM HERE */
 .splitflap .image span.AAA {
-  background-position: 0px max(-80px,-80/1200*100vw);
+  background-position: 0px max(-80px,-80/2500*100vw);
   }
   .splitflap .image span.AAB {
-  background-position: 0px max(-120px,-120/1200*100vw);
+  background-position: 0px max(-120px,-120/2500*100vw);
   }
   .splitflap .image span.AAC {
-  background-position: 0px max(-160px,-160/1200*100vw);
+  background-position: 0px max(-160px,-160/2500*100vw);
   }
   .splitflap .image span.AAD {
-  background-position: 0px max(-200px,-200/1200*100vw);
+  background-position: 0px max(-200px,-200/2500*100vw);
   }
   .splitflap .image span.AAE {
-  background-position: 0px max(-240px,-240/1200*100vw);
+  background-position: 0px max(-240px,-240/2500*100vw);
   }
   .splitflap .image span.AAF {
-  background-position: 0px max(-280px,-280/1200*100vw);
+  background-position: 0px max(-280px,-280/2500*100vw);
   }
   .splitflap .image span.AAG {
-  background-position: 0px max(-320px,-320/1200*100vw);
+  background-position: 0px max(-320px,-320/2500*100vw);
   }
   .splitflap .image span.AAH {
-  background-position: 0px max(-360px,-360/1200*100vw);
+  background-position: 0px max(-360px,-360/2500*100vw);
   }
   .splitflap .image span.AAI {
-  background-position: 0px max(-400px,-400/1200*100vw);
+  background-position: 0px max(-400px,-400/2500*100vw);
   }
   .splitflap .image span.AAJ {
-  background-position: 0px max(-440px,-440/1200*100vw);
+  background-position: 0px max(-440px,-440/2500*100vw);
   }
   .splitflap .image span.AAK {
-  background-position: 0px max(-480px,-480/1200*100vw);
+  background-position: 0px max(-480px,-480/2500*100vw);
   }
   .splitflap .image span.AAL {
-  background-position: 0px max(-520px,-520/1200*100vw);
+  background-position: 0px max(-520px,-520/2500*100vw);
   }
   .splitflap .image span.AAM {
-  background-position: 0px max(-560px,-560/1200*100vw);
+  background-position: 0px max(-560px,-560/2500*100vw);
   }
   .splitflap .image span.AAN {
-  background-position: 0px max(-600px,-600/1200*100vw);
+  background-position: 0px max(-600px,-600/2500*100vw);
   }
   .splitflap .image span.AAO {
-  background-position: 0px max(-640px,-640/1200*100vw);
+  background-position: 0px max(-640px,-640/2500*100vw);
   }
   .splitflap .image span.AAP {
-  background-position: 0px max(-680px,-680/1200*100vw);
+  background-position: 0px max(-680px,-680/2500*100vw);
   }
   .splitflap .image span.AAQ {
-  background-position: 0px max(-720px,-720/1200*100vw);
+  background-position: 0px max(-720px,-720/2500*100vw);
   }
   .splitflap .image span.AAR {
-  background-position: 0px max(-760px,-760/1200*100vw);
+  background-position: 0px max(-760px,-760/2500*100vw);
   }
   .splitflap .image span.AAS {
-  background-position: 0px max(-800px,-800/1200*100vw);
+  background-position: 0px max(-800px,-800/2500*100vw);
   }
   .splitflap .image span.AAT {
-  background-position: 0px max(-840px,-840/1200*100vw);
+  background-position: 0px max(-840px,-840/2500*100vw);
   }
   .splitflap .image span.AAU {
-  background-position: 0px max(-880px,-880/1200*100vw);
+  background-position: 0px max(-880px,-880/2500*100vw);
   }
   .splitflap .image span.AAV {
-  background-position: 0px max(-920px,-920/1200*100vw);
+  background-position: 0px max(-920px,-920/2500*100vw);
   }
   .splitflap .image span.AAW {
-  background-position: 0px max(-960px,-960/1200*100vw);
+  background-position: 0px max(-960px,-960/2500*100vw);
   }
   .splitflap .image span.AAX {
-  background-position: 0px max(-1000px,-1000/1200*100vw);
+  background-position: 0px max(-1000px,-1000/2500*100vw);
   }
   .splitflap .image span.AAY {
-  background-position: 0px max(-1040px,-1040/1200*100vw);
+  background-position: 0px max(-1040px,-1040/2500*100vw);
   }
   .splitflap .image span.AAZ {
-  background-position: 0px max(-1080px,-1080/1200*100vw);
+  background-position: 0px max(-1080px,-1080/2500*100vw);
   }
   .splitflap .image span.ABA {
-  background-position: 0px max(-1120px,-1120/1200*100vw);
+  background-position: 0px max(-1120px,-1120/2500*100vw);
   }
   .splitflap .image span.ABB {
-  background-position: 0px max(-1160px,-1160/1200*100vw);
+  background-position: 0px max(-1160px,-1160/2500*100vw);
   }
   .splitflap .image span.ABC {
-  background-position: 0px max(-1200px,-1200/1200*100vw);
+  background-position: 0px max(-2500px,-2500/2500*100vw);
   }
   .splitflap .image span.ABD {
-  background-position: 0px max(-1240px,-1240/1200*100vw);
+  background-position: 0px max(-1240px,-1240/2500*100vw);
   }
   .splitflap .image span.ABE {
-  background-position: 0px max(-1280px,-1280/1200*100vw);
+  background-position: 0px max(-1280px,-1280/2500*100vw);
   }
   .splitflap .image span.ABF {
-  background-position: 0px max(-1320px,-1320/1200*100vw);
+  background-position: 0px max(-1320px,-1320/2500*100vw);
   }
   .splitflap .image span.ABG {
-  background-position: 0px max(-1360px,-1360/1200*100vw);
+  background-position: 0px max(-1360px,-1360/2500*100vw);
   }
   .splitflap .image span.ABH {
-  background-position: 0px max(-1400px,-1400/1200*100vw);
+  background-position: 0px max(-1400px,-1400/2500*100vw);
   }
   .splitflap .image span.ABI {
-  background-position: 0px max(-1440px,-1440/1200*100vw);
+  background-position: 0px max(-1440px,-1440/2500*100vw);
   }
   .splitflap .image span.ABJ {
-  background-position: 0px max(-1480px,-1480/1200*100vw);
+  background-position: 0px max(-1480px,-1480/2500*100vw);
   }
   .splitflap .image span.ABK {
-  background-position: 0px max(-1520px,-1520/1200*100vw);
+  background-position: 0px max(-1520px,-1520/2500*100vw);
   }
   .splitflap .image span.ABL {
-  background-position: 0px max(-1560px,-1560/1200*100vw);
+  background-position: 0px max(-1560px,-1560/2500*100vw);
   }
   .splitflap .image span.ABM {
-  background-position: 0px max(-1600px,-1600/1200*100vw);
+  background-position: 0px max(-1600px,-1600/2500*100vw);
   }  
   
 /* REPLACE ENDS HERE */
