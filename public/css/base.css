@@ -12,6 +12,10 @@ a {
   font-family: aAtmospheric;
   src: url(../font/a_atmospheric/aAtmospheric.ttf);
 }
+@font-face {
+  font-family: belvetica;
+  src: url(../font/belvetica/belvetica.ttf);
+}
 h1 {
   font-family: aAtmospheric;
 }
@@ -32,9 +36,9 @@ h1 img {
   font-size: min(40px,40/2500*100vw);
 }
 .splitflap .header {
+  font-family: belvetica;
   float: left;
   font-size: min(21px,21/2500*100vw);
-  font-weight: bold;
   text-align: center;
   margin-bottom: min(20px,20/2500*100vw);
 }
