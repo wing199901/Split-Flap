@@ -16,18 +16,11 @@ a {
   font-family: belvetica;
   src: url(../font/belvetica/belvetica.ttf);
 }
-h1 {
-  font-family: aAtmospheric;
-}
-h1 img {
-  float: right;
-  margin-right: 1vw;
-  width: min(250px,250/2500*100vw);
-}
-h2 img {
+img {
+  max-width: 2500px;
   width: 100vw;
   display: block;
-  margin-bottom: max(-30px,-30/2500*100vw);
+  margin-bottom: min(5px, 5/2500*100vw);
 }
 .splitflap {
   max-width: 2500px; /*  should be   2 5 0 0 p x  */
@@ -39,13 +32,6 @@ h2 img {
 .splitflap h1 {
   text-transform: uppercase;
   font-size: min(40px,40/2500*100vw);
-}
-.splitflap .header {
-  font-family: belvetica;
-  float: left;
-  font-size: min(21px,21/2500*100vw);
-  text-align: center;
-  margin-bottom: min(20px,20/2500*100vw);
 }
 .splitflap .row {
   clear: both;
