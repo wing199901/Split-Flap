@@ -37,7 +37,7 @@ img {
 .splitflap .row {
   clear: both;
   height: min(60px,60/2500*100vw);
-  margin-left: max(-8px,-8/2500*250vw);
+  margin-left: max(-4px,-4/2500*250vw);
   transform: translateY(max(-8px,-8/2500*1000vw));
 }
 .splitflap .group {
