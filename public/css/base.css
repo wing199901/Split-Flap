@@ -2,7 +2,8 @@ body {
   background: #0f0f0f;
   color: #fff;
   font-family: helvetica, sans-serif;
-  margin: 0px;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 a {
   color: #fff;
@@ -20,7 +21,7 @@ img {
   max-width: 2500px;
   width: 100vw;
   display: block;
-  margin-bottom: min(5px, 5/2500*100vw);
+  margin: -8px -8px min(5px, 5/2500*100vw) -8px;
 }
 .splitflap {
   max-width: 2500px; /*  should be   2 5 0 0 p x  */
@@ -36,13 +37,15 @@ img {
 .splitflap .row {
   clear: both;
   height: min(60px,60/2500*100vw);
+  margin-left: max(-8px,-8/2500*250vw);
+  transform: translateY(max(-8px,-8/2500*1000vw));
 }
 .splitflap .group {
   display: inline-block;
   font-size: 0;
   overflow: hidden;
   margin-top: min(20px,20/2500*100vw);
-  margin-left: calc(-0.002 * (2500px - 100vw));
+  margin-left: calc(-0.002   * (2500px - 100vw));
   /*float: left;
   margin-right: 30px;*/
 }
@@ -102,8 +105,8 @@ img {
 }
 .splitflap .status {
   margin-right: 0px;
-  margin-top: min(22px,22/2500*100vw);;
-  vertical-align: top;
+  margin-top: 0px;
+  margin-bottom: min(10px,10/2500*100vw);
 }
 .splitflap .status div {
   float: left;
