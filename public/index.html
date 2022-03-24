@@ -17,16 +17,27 @@
       <img src="img/aerosim_logo.png">
       <img src="img/aiat_logo.png" style="margin-right: 5%;"> 
     </h1>
+    <h2><i class="header"></i>
+      <img src="img/header.png">                         
+    </h2>
 
-    <!-- Header: 30px/char, 15px/separator, 120px/logo -->
+    <!--
+
+
+      
+    <!- - Header: 30px/char, 15px/separator, 120px/logo - ->
     <div class="header" style="width:min(120px,120/2500*100vw);margin-left:0px;"></div>
-    <!-- <div class="header" style="width:120px;margin-left:30px;">Flight</div> -->
-    <div class="header" style="width: min(1680px, calc(100vw - 820px));min-width: min(1680px,1680/2500*100vw); margin-left:min(30px,30/2500*100vw);text-align:left;">
+    <!- - <div class="header" style="width:120px;margin-left:30px;">Flight</div> - ->
+    
+    <!- - width: min( [1680px - "var1"] or "cityrow-size-before-scaling", calc(100vw - (2500 - "cityrow-size-before-scaling"))) - ->
+    <!- - min-width: min( [1680px - "var1"] or "cityrow-size-before-scaling", "cityrow-size-before-scaling"/2500*100vw) - ->
+    <!- - div class="header" style="width: min(1430px, calc(100vw - 820px));min-width: min(1430px,1430/2500*100vw); margin-left:min(30px,30/2500*100vw);text-align:left;" - ->
+    <div class="header" style="width: min(1680px,1680/2500*100vw);margin-left:min(30px,30/2500*100vw);text-align:left;">
       School Name
     </div>
-    <!-- <div class="header" style="width:90px;margin-left:30px;">Gate</div>
+    <!- - <div class="header" style="width:90px;margin-left:30px;">Gate</div>
       <div class="header" style="width:135px;margin-left:30px;">Scheduled</div>
-      -->
+      - ->
     <div class="header" style="width:min(70px,70/2500*100vw);margin-left:min(40px,40/2500*100vw);text-align:left;">
       School <br>Net
     </div>
@@ -36,6 +47,7 @@
     <div class="header" style="width:min(270px,270/2500*100vw);margin-left:min(30px,30/2500*100vw);text-align:left;">
       Status
     </div>
+    -->
 
     <!-- rows will be placed here dynamically from #row_template -->
   </div>
@@ -116,7 +128,7 @@
           <div class="character"><span></span></div>
           <div class="character"><span></span></div>
         </div>
-         <div class="group gate"> 
+        <div class="group gate"> 
           <div class="character"><span></span></div>
           <div class="character"><span></span></div>
           <div class="number"><span></span></div>
@@ -157,10 +169,11 @@
   <!-- END ROW TEMPLATE -->
   <!-- ============================================ -->
 
+  <!-- MAX WIDTH SHOULD BE   2 5 0 0 p x  -->
   <img src="/img/support_organisation.png" style="
     display: block;
     max-width: 2500px;
-    width: 100%;">
+    width: 100vw;">
 
   <!-- ============================================ -->
   <!-- JS LIBRARIES -->

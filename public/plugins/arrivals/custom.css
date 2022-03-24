@@ -7,6 +7,7 @@
   background: url('airline_logos.png') no-repeat;
   background-position: 0px 0px;
   background-size: min(115px,115/2500*100vw);
+  font-size: 0;
 }
 
 .splitflap .image span {
