@@ -1,4 +1,4 @@
-<html>
+<html margin-left="calc(100vw - 100%)">
 
 <head>
   <link rel="stylesheet" href="css/base.css" />
@@ -13,31 +13,7 @@
   <!-- ============================================ -->
   <!-- CONTAINER -->
   <div id="board" class="chartContainer splitflap">
-    <h1><i class="fa-solid fa-plane-departure"></i> Departures
-      <img src="img/aerosim_logo.png">
-      <img src="img/aiat_logo.png" style="margin-right: 5%;"> 
-    </h1>
-
-    <!-- Header: 30px/char, 15px/separator, 120px/logo -->
-    <div class="header" style="width:120px;margin-left:0px;"></div>
-    <!-- <div class="header" style="width:120px;margin-left:30px;">Flight</div> -->
-    <div class="header" style="width: min(1680px, calc(100% - 820px));min-width: 370px; margin-left:30px;text-align:left;">
-      School Name
-    </div>
-    <!-- <div class="header" style="width:90px;margin-left:30px;">Gate</div>
-      <div class="header" style="width:135px;margin-left:30px;">Scheduled</div>
-      -->
-    <div class="header" style="width:70px;margin-left:40px;text-align:left;">
-      School <br>Net
-    </div>
-    <div class="header" style="width:70px;margin-left:30px;text-align:left;">
-      Teams
-    </div>
-    <div class="header" style="width:270px;margin-left:30px;text-align:left;">
-      Status
-    </div>
-
-    <!-- rows will be placed here dynamically from #row_template -->
+    <img src="img/banner-top.png"/>
   </div>
   <!-- END CONTAINER -->
   <!-- ============================================ -->
@@ -116,7 +92,7 @@
           <div class="character"><span></span></div>
           <div class="character"><span></span></div>
         </div>
-         <div class="group gate"> 
+        <div class="group gate"> 
           <div class="character"><span></span></div>
           <div class="character"><span></span></div>
           <div class="number"><span></span></div>
@@ -157,11 +133,12 @@
   <!-- END ROW TEMPLATE -->
   <!-- ============================================ -->
 
+  <!-- MAX WIDTH SHOULD BE   2 5 0 0 p x  -->
   <img src="/img/support_organisation.png" style="
     display: block;
     max-width: 2500px;
-    min-width: 1200px;
-    width: 100%;">
+    width: 100vw;
+    margin-top: min(20px, 20/2500*100vw);">
 
   <!-- ============================================ -->
   <!-- JS LIBRARIES -->
