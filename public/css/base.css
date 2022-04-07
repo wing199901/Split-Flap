@@ -83,6 +83,12 @@ h1 img {
 }
 */
 
+.splitflap .remarks:after {
+  content: '';
+  width: 10px;
+  display: inline-block;
+}
+
 .splitflap .separator {
   float: left;
   height: 40px;

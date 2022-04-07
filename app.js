@@ -149,8 +149,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 2,
         city: "St Paul's College",
         gate: "HK1",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAD",
@@ -165,8 +165,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "CCC Tam Lee Lai Fun Memorial Secondary School",
         gate: "NT3",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAF",
@@ -181,24 +181,24 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "SKH Lam Woo Memorial Secondary School",
         gate: "NT1",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAH",
         flight: 1,
         city: "BISHOP HALL JUBILEE SCHOOL",
         gate: "KL3",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAI",
         flight: 1,
         city: "HKUGA College",
         gate: "HK4",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAJ",
@@ -229,8 +229,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 2,
         city: "WONG SHIU CHI SECONDARY SCHOOL",
         gate: "NT6",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAN",
@@ -245,16 +245,16 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "PHC Wing Kwong College",
         gate: "KL4",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAP",
         flight: 1,
         city: "Ying Wa College",
         gate: "KL2",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAQ",
@@ -267,7 +267,7 @@ app.use('/api/arrivals', (req, res) => {
 {
         airline: "AAR",
         flight: 1,
-        city: "Hong Kong Teachers' Association Lee Heng Kwei Secondary School",
+        city: "HK Teachers' Association Lee Heng Kwei Secondary School",
         gate: "NT6",
         status: "A",
         remarks: "BOARDING"
@@ -317,8 +317,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "St Stephen's College",
         gate: "HK4",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "AAY",
@@ -365,8 +365,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "SKH TANG SHIU KIN SECONDARY SCHOOL",
         gate: "HK1",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "ABE",
@@ -381,8 +381,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "Creative Secondary School",
         gate: "INT",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "ABG",
@@ -421,8 +421,8 @@ app.use('/api/arrivals', (req, res) => {
         flight: 1,
         city: "Lee Kau Yan Memorial School",
         gate: "KL4",
-        status: "B",
-        remarks: "GATE OPEN"
+        status: "A",
+        remarks: "BOARDING"
 },
 {
         airline: "ABL",
@@ -435,10 +435,10 @@ app.use('/api/arrivals', (req, res) => {
 {
         airline: "ABM",
         flight: 1,
-        city: "Evangel College",
-        gate: "NT8",
-        status: "B",
-        remarks: "GATE OPEN"
+        city: "YMCA of Hong Kong Christian College",
+        gate: "NT9",
+        status: "A",
+        remarks: "BOARDING"
 }
       // REPLACE ENDS HERE //
     ]
