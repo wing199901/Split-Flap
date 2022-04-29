@@ -40,7 +40,16 @@ sf.display.ImageDrum = function () {
     'ABJ',
     'ABK',
     'ABL',
-    'ABM'
+    'ABM',
+    'ABN',
+    'ABO',
+    'ABP',
+    'ABQ',
+    'ABR',
+    'ABS',
+    'ABT',
+    'ABU',
+    'ABV'
     // REPLACE ENDS HERE //
   ];
 };
